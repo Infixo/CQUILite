@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+    <LocalizedText>
+        <!-- Trim gossip source -->
+        <Replace Tag="LOC_GOSSIP_SOURCE_HIGHLEVEL_SPY" Language="pl_PL"/>
+        <!-- Replace Expansion 2 Gossip Text -->
+        <Replace Tag="LOC_GOSSIP_SPY_DAM_BREACHED_DETECTED" Language="pl_PL">
+            <Text>[ICON_Pillaged] Tama {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} została uszkodzona w {2_CityName} przez szpiega z {3_SpyPlayer}.</Text>
+        </Replace>
+        <Replace Tag="LOC_GOSSIP_SPY_DAM_BREACHED_UNDETECTED" Language="pl_PL">
+            <Text>[ICON_Pillaged] Tama {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} została uszkodzona w {2_CityName} przez nieznanego szpiega.</Text>
+        </Replace>
+        <Replace Tag="LOC_GOSSIP_ROCK_CONCERT" Language="pl_PL">
+            <Text>[ICON_Exclamation] Koncert {3_BandName} w {1_City_Name} zyskał recenzencki tytuł "{2_ResultName}".</Text>
+        </Replace>
+        <Replace Tag="LOC_GOSSIP_POWERED_CITY" Language="pl_PL">
+            <Text>[ICON_Power] {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} napędza miasto {2_CityName} elektrycznością.</Text>
+        </Replace>
+        <Replace Tag="LOC_GOSSIP_RANDOM_EVENT" Language="pl_PL">
+            <Text>[ICON_Exclamation] {LOC_GRAMMAR_CIVNAME &lt;&lt; {1_CivName}} cierpi z powodu klęski żywiołowej {2_NaturalDisasterName}.</Text>
+        </Replace>    
+    </LocalizedText>
+</GameData>

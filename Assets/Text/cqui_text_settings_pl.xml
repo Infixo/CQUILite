@@ -1,232 +1,431 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-  <LocalizedText>
-    <!-- POLISH -->
-
-    <Row Tag="LOC_CQUI_BINDINGS" Language="pl_PL">
-      <Text>Skróty klawiszowe</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="pl_PL">
-      <Text>Typ skrótów</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="pl_PL">
-      <Text>Standardowe: Niezmienione[NEWLINE]Klasyczne: Skróty z Civ V[NEWLINE]Ulepszone: Skróty z Civ V z następującymi zmianami[NEWLINE]  WASD poruszanie kamerą[NEWLINE]  Q/E zmiana jednostki/miasta na kolejną[NEWLINE]  Shift przełącza wybór miasta/jednostki[NEWLINE]  Kamieniołom/Nalot zostały przeniesione na skróty alt + Q/S[NEWLINE]  NOTKA:USUŃ PRZYPISANIE W/E W USTAWIENIACH GRY LUB NIEKTÓRZE RZECZY NIE BĘDĄ DZIAŁAĆ!</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="pl_PL">
-      <Text>Klasyczny</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="pl_PL">
-      <Text>Ulepszony</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_BINDINGS_STANDARD" Language="pl_PL">
-      <Text>Standardowy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW" Language="pl_PL">
-      <Text>Widok miasta</Text>
-    </Row>
-    <!-- Relocate City Strike and Encampment Strike button translations done via Google Translate -->
-    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON" Language="pl_PL">
-      <Text>Zmień położenie przycisku City Strike</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON_TOOLTIP" Language="pl_PL">
-      <Text>Włącz tę opcję, aby przenieść przycisk Strajku Miasta powyżej pasków zdrowia i obrony</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON" Language="pl_PL">
-      <Text>Zmień położenie przycisku obozowania obozowiska</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON_TOOLTIP" Language="pl_PL">
-      <Text>Włącz tę opcję, aby przenieść przycisk Obozowisko powyżej pasków zdrowia i obrony</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_PRODUCTIONQUEUE" Language="pl_PL">
-      <Text>Włącz kolejkę budowania</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH" Language="pl_PL">
-      <Text>Pokaż nakładkę wzrostu naturalnego</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH_TOOLTIP" Language="pl_PL">
-      <Text>Możesz to także przełączać klikając na emblemat wzrostu w widoku miasta</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER" Language="pl_PL">
-      <Text>Informacje o mieście po najechaniu</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER_TOOLTIP" Language="pl_PL">
-      <Text>Wyświetla ikony obywateli, ikony dochodu oraz rozrost granic po najechaniu myszką</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_HEADER" Language="pl_PL">
-      <Text>Inteligentne Banery</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER" Language="pl_PL">
-      <Text>Włącz inteligentne banery</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_TOOLTIP" Language="pl_PL">
-      <Text>Wyświetla nowe ikony i informacje w banerze miasta.</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_UNLOCKEDCITIZEN_TOOLTIP" Language="pl_PL">
-      <Text>Ikona [ICON_EXCLAMATION] jest wyświetlona gdy niezablokowani obywatele są automatycznie przypisywani przez AI zarządcy miasta.</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_TOOLTIP" Language="pl_PL">
-      <Text>Ikony dystryktów wskazują zbydowane dystrykty</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_POPULATION_TOOLTIP" Language="pl_PL">
-      <Text>Wyświetla pozostałą liczbę tur do wzrostu populacji[NEWLINE]oraz [obecną populację/ilość wolnych miejsc populacji].</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_CULTURAL_TOOLTIP" Language="pl_PL">
-      <Text>Wyświetla pozostałą liczbę tur do rozrostu kulturowego.</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON" Language="pl_PL">
-      <Text>Inteligentne ikony pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON_TOOLTIP" Language="pl_PL">
-      <Text>Nadaje specjalny rozmiar/przeźroczystość ikonom pracujących obywateli</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONALPHA" Language="pl_PL">
-      <Text>Przeźroczystość inteligentnych ikon pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONSIZE" Language="pl_PL">
-      <Text>Rozmiar inteligentnych ikon pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONS_HEADER" Language="pl_PL">
-      <Text>Ikony pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONALPHA" Language="pl_PL">
-      <Text>Przeźroczystość ikon pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_CITYVIEW_WORKICONSIZE" Language="pl_PL">
-      <Text>Rozmiar ikon pracy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL" Language="pl_PL">
-      <Text>Ogólne</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_HIDDEN" Language="pl_PL">
-      <Text>Ukryte</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_MINIMAPSIZE" Language="pl_PL">
-      <Text>Rozmiar Minimapy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE" Language="pl_PL">
-      <Text>Styl ikon ulepszonych zasobów</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE_TOOLTIP" Language="pl_PL">
-      <Text>Pełny: zawsze rysuj ikony zasobów[NEWLINE]Przeźroczysty: ikony ulepszonych zasobów są przeźroczyste[NEWLINE]Ukryty: ikony ulepszonych zasobów są ukryte</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="pl_PL">
-      <Text>Zasoby luksusowe w górnym panelu</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_SOLID" Language="pl_PL">
-      <Text>Pełny</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_TOGGLEYIELDSONLOAD" Language="pl_PL">
-      <Text>Automatycznie włącza ikony dochodu</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GENERAL_TRANSPARENT" Language="pl_PL">
-      <Text>Przeźroczysty</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GOSSIP" Language="pl_PL">
-      <Text>Plotki</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE" Language="pl_PL">
-      <Text>Przycinaj plotki</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE_TOOLTIP" Language="pl_PL">
-      <Text>Usuwa głównie bezużyteczne początki wiadomości opisujące skąd pochodzi dana plotka</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES" Language="pl_PL">
-      <Text>Filtry</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYARCHAEOLOGISTLENS" Language="pl_PL">
-      <Text>Automatycznie włącz filtr archeologa</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYBUILDERLENS" Language="pl_PL">
-      <Text>Automatycznie włącz filtr budowniczego</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS" Language="pl_PL">
-      <Text>Automatycznie włącz filtr zwiadowcy</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS" Language="pl_PL">
-      <Text>Wyskakujące okna</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS_ALWAYSOPENTECHTREES" Language="pl_PL">
-      <Text>Zawsze otwieraj drzewo technologii</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="pl_PL">
-      <Text>Popup zakończenia Badania/Kodeksu</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="pl_PL">
-      <Text>Przełącza wyskakiwanie popup'u który informuje o zakończeniu badania bądź kodeksu prawnego</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="pl_PL">
-      <Text>Odtwarzanie cytatu w okienku ukończenia Technologii/Idei</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="pl_PL">
-      <Text>Przełącza odtwarzanie cytatu w wyskakującym okienku ukończenia Technologii/Idei</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SETTINGS_REMINDER" Language="pl_PL">
-      <Text>Pamiętaj: Ustawienia CQUI są przypisane do poszczególnych zapisów gry![NEWLINE]Jeśli chcesz zmienić ustawienia na stałe, zmień je w pliku[NEWLINE] cqui_settings_local.sql znajdującym się w katalogu instalacyjnym modów (NIE w katalogu modu).</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_UNITS" Language="pl_PL">
-      <Text>Jednostki</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_UNITS_SHOWUNITPATHS" Language="pl_PL">
-      <Text>Pokazuj drogę jednostki</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_UNITS_AUTOEXPANDUNITACTIONS" Language="pl_PL">
-      <Text>Rozwijaj listę akcji w panelu jednostki</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER" Language="pl_PL">
-      <Text>Ikona cywilizacji suzerena w sztandarze państwa-miasta</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER" Language="pl_PL">
-      <Text>Ikona wojny w sztandarze państwa-miasta </Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER_TOOLTIP" Language="pl_PL">
-      <Text>Będąc w stanie wojny z państwem-miastem, pokaż ikonę wojny w sztandarze tego państwa-miasta</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON" Language="pl_PL">
-    <Text>Pokaż etykiety wysłannika Suzerain</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON_TOOLTIP" Language="pl_PL">
-        <Text>Pokaż etykiety wysłannika Suzeraina w Banner CityState[NEWLINE]Gdy jesteś Suzerain, numer w prawym górnym rogu ikony pokazuje wysłanych wysłanników.[NEWLINE]Kiedy nie jesteś Suzerain, twoi wysłannicy pokazują w lewym górnym rogu, wysłannicy Suzerain w prawym górnym rogu.</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_CIV_ICON" Language="pl_PL">
-        <Text>Pokaż ikonę cywilizacji</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_DISABLED" Language="pl_PL">
-        <Text>Nie pokazuj Suzerain</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER_TOOLTIP" Language="pl_PL">
-        <Text>Pokaż ikonę cywilizacji lub lidera Suzerain w Sztandarze CityState</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SHOW_SUZERAIN_LEADER_ICON" Language="pl_PL">
-        <Text>Pokaż ikonę lidera</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE" Language="pl_PL">
-      <Text>Styl flagi jednostki obiektywu religii</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE_TOOLTIP" Language="pl_PL">
-      <Text>Styl ikon flagi jednostki jednostek niereligijnych, gdy obiektyw religii jest włączony[NEWLINE]Bryła: Flagi jednostki pozostają widoczne, niezmienione[NEWLINE]Przezroczysty: Flagi jednostek stają się przezroczyste[NEWLINE]Ukryte: Flagi jednostek są ukryte</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SETTINGS" Language="pl_PL">
-      <Text>USTAWIENIA CQUI</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_SETTINGS_MOVED" Language="pl_PL">
-      <Text>Ustawienia CQUI można teraz znaleźć, wybierając opcje z menu gry, a następnie przycisk Ustawienia CQUI</Text>
-    </Row>
-
-    <!-- More Lenses Color Slider Controls -->
-    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS" Language="pl_PL">
-      <Text>Ustawienia kolorów RGB dla obiektywów niestandardowych</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_BLUE" Language="pl_PL">
-      <Text>Niebieski</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_EDITBOX_TOOLTIP" Language="pl_PL">
-      <Text>Wprowadź wartość z 0 do 255</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_GREEN" Language="pl_PL">
-      <Text>Zielony</Text>
-    </Row>
-    <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_RED" Language="pl_PL">
-      <Text>Czerwony</Text>
-    </Row>
-  </LocalizedText>
+    <LocalizedText>
+        <!-- POLISH -->
+        <Row Tag="LOC_CQUI_BINDINGS" Language="pl_PL">
+            <Text>Skróty klawiszowe</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN" Language="pl_PL">
+            <Text>Typ skrótów</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BINDINGS_DROPDOWN_TOOLTIP" Language="pl_PL">
+            <Text>Standardowe: Niezmienione[NEWLINE]Klasyczne: Skróty z Civ V[NEWLINE]Ulepszone: Skróty z Civ V z następującymi zmianami[NEWLINE]  WASD poruszanie kamerą[NEWLINE]  Q/E zmiana jednostki/miasta na kolejną[NEWLINE]  Shift przełącza wybór miasta/jednostki[NEWLINE]  Kamieniołom/Nalot zostały przeniesione na skróty alt + Q/S[NEWLINE]  NOTKA:USUŃ PRZYPISANIE W/E W USTAWIENIACH GRY LUB NIEKTÓRZE RZECZY NIE BĘDĄ DZIAŁAĆ!</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BINDINGS_CLASSIC" Language="pl_PL">
+            <Text>Klasyczny</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BINDINGS_ENHANCED" Language="pl_PL">
+            <Text>Ulepszony</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BINDINGS_STANDARD" Language="pl_PL">
+            <Text>Standardowy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW" Language="pl_PL">
+            <Text>Widok miasta</Text>
+        </Row>
+        <!-- Relocate City Strike and Encampment Strike button translations done via Google Translate -->
+        <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON" Language="pl_PL">
+            <Text>Zmień położenie przycisku City Strike</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_RELOCATECITYSTRIKEBUTTON_TOOLTIP" Language="pl_PL">
+            <Text>Włącz tę opcję, aby przenieść przycisk Strajku Miasta powyżej pasków zdrowia i obrony</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON" Language="pl_PL">
+            <Text>Zmień położenie przycisku obozowania obozowiska</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_RELOCATEENCAMPMENTSTRIKEBUTTON_TOOLTIP" Language="pl_PL">
+            <Text>Włącz tę opcję, aby przenieść przycisk Obozowisko powyżej pasków zdrowia i obrony</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_PRODUCTIONQUEUE" Language="pl_PL">
+            <Text>Włącz kolejkę budowania</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH" Language="pl_PL">
+            <Text>Pokaż nakładkę wzrostu naturalnego</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCULTUREGROWTH_TOOLTIP" Language="pl_PL">
+            <Text>Możesz to także przełączać klikając na emblemat wzrostu w widoku miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER" Language="pl_PL">
+            <Text>Informacje o mieście po najechaniu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWYIELDSONCITYHOVER_TOOLTIP" Language="pl_PL">
+            <Text>Wyświetla ikony obywateli, ikony dochodu oraz rozrost granic po najechaniu myszką</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITIZENICONSONHOVER" Language="pl_PL">
+            <Text>Informacje o mieszkańcach po najechaniu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITIZENICONSONHOVER_TOOLTIP" Language="pl_PL">
+            <Text>Pokazuje ikony mieszkańców po najechaniu myszką na baner miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEONHOVER" Language="pl_PL">
+            <Text>Pokaż pole zarządzania miasta po najechaniu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEONHOVER_TOOLTIP" Language="pl_PL">
+            <Text>Pokazuje pole zarządzania mieszkańcami po najechaniu myszką na baner miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEOVERLENSES" Language="pl_PL">
+            <Text>Pokaż zarządzanie miastem na filtrach miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SHOWCITYMANAGEOVERLENSES_TOOLTIP" Language="pl_PL">
+            <Text>Pokazuje zarządzanie mieszkańcami za pomocą soczewek aktywowanych przez różne zakładki w Widoku Miasta, takie jak zakładka Religia.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_HEADER" Language="pl_PL">
+            <Text>Inteligentne Banery</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER" Language="pl_PL">
+            <Text>Włącz inteligentne banery</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_TOOLTIP" Language="pl_PL">
+            <Text>Wyświetla nowe ikony i informacje w banerze miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_UNLOCKEDCITIZEN_TOOLTIP" Language="pl_PL">
+            <Text>Ikona [ICON_EXCLAMATION] jest wyświetlona gdy niezablokowani obywatele są automatycznie przypisywani przez AI zarządcy miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_TOOLTIP" Language="pl_PL">
+            <Text>Ikony dystryktów wskazują zbydowane dystrykty</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_POPULATION_TOOLTIP" Language="pl_PL">
+            <Text>Wyświetla pozostałą liczbę tur do wzrostu populacji[NEWLINE]oraz [obecną populację/ilość wolnych miejsc populacji].</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_CULTURAL_TOOLTIP" Language="pl_PL">
+            <Text>Wyświetla pozostałą liczbę tur do rozrostu kulturowego.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_AVAILABLE" Language="pl_PL">
+            <Text>Dostępne Dzielnice</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTBANNER_DISTRICTS_AVAILABLE_TOOLTIP" Language="pl_PL">
+            <Text>Wyświetl ikonę wskazującą możliwość budowy dzielnic w mieście.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER" Language="pl_PL">
+            <Text>Suweren na sztandarze Miasta-Państwa</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_SUZERAIN_IN_CITYSTATE_BANNER_TOOLTIP" Language="pl_PL">
+            <Text>Pokaż ikonę Cywilizacji lub Przywódcy suwerena na sztandarze Miasta-Państwa</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER" Language="pl_PL">
+            <Text>Ikona Wojny na sztandarze Miasta-Państwa</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_WAR_ICON_IN_CITYSTATE_BANNER_TOOLTIP" Language="pl_PL">
+            <Text>Podczas wojny z państwem-miastem, pokaż ikonę wojny na banerze tego państwa-miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON" Language="pl_PL">
+            <Text>Inteligentne ikony pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICON_TOOLTIP" Language="pl_PL">
+            <Text>Nadaje specjalny rozmiar/przeźroczystość ikonom pracujących obywateli</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONALPHA" Language="pl_PL">
+            <Text>Przeźroczystość inteligentnych ikon pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_SMARTWORKICONSIZE" Language="pl_PL">
+            <Text>Rozmiar inteligentnych ikon pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_WORKICONS_HEADER" Language="pl_PL">
+            <Text>Ikony pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_WORKICONALPHA" Language="pl_PL">
+            <Text>Przeźroczystość ikon pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CITYVIEW_WORKICONSIZE" Language="pl_PL">
+            <Text>Rozmiar ikon pracy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL" Language="pl_PL">
+            <Text>Ogólne</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_HIDDEN" Language="pl_PL">
+            <Text>Ukryte</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_MINIMAPSIZE" Language="pl_PL">
+            <Text>Rozmiar Minimapy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE" Language="pl_PL">
+            <Text>Styl ikon ulepszonych zasobów</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_RESOURCEDIMMINGSTYLE_TOOLTIP" Language="pl_PL">
+            <Text>Pełny: zawsze rysuj ikony zasobów[NEWLINE]Przeźroczysty: ikony ulepszonych zasobów są przeźroczyste[NEWLINE]Ukryty: ikony ulepszonych zasobów są ukryte</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_SHOWLUXURY" Language="pl_PL">
+            <Text>Zasoby luksusowe w górnym panelu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_SOLID" Language="pl_PL">
+            <Text>Pełny</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_TOGGLEYIELDSONLOAD" Language="pl_PL">
+            <Text>Automatycznie włącza ikony dochodu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_TRANSPARENT" Language="pl_PL">
+            <Text>Przeźroczysty</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GOSSIP" Language="pl_PL">
+            <Text>Plotki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE" Language="pl_PL">
+            <Text>Przycinaj plotki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GOSSIP_TRIMMESSAGE_TOOLTIP" Language="pl_PL">
+            <Text>Usuwa głównie bezużyteczne początki wiadomości opisujące skąd pochodzi dana plotka</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES" Language="pl_PL">
+            <Text>Filtry</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYARCHAEOLOGISTLENS" Language="pl_PL">
+            <Text>Automatyczne stosowanie soczewki archeologa</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYARCHAEOLOGISTLENS_TOOLTIP" Language="pl_PL">
+            <Text>Automatycznie stosuj soczewkę archeologa przy wyborze jednostki archeologa.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYBUILDERLENS" Language="pl_PL">
+            <Text>Automatyczne stosowanie soczewki budowniczego</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYBUILDERLENS_TOOLTIP" Language="pl_PL">
+            <Text>Włącz to, aby automatycznie stosować soczewkę budowniczego przy wyborze budowniczego.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_BUILDERDISABLENOTHING" Language="pl_PL">
+            <Text>Soczewka budowniczego: Wyłącz podświetlanie pustego pola</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_BUILDERDISABLENOTHING_TOOLTIP" Language="pl_PL">
+            <Text>Wyłącz podświetlanie pól bez działania.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_BUILDERDISABLEDANGEROUS" Language="pl_PL">
+            <Text>Obiektyw budowniczego: wyłącz podświetlanie niebezpiecznych pól.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_BUILDERDISABLEDANGEROUS_TOOLTIP" Language="pl_PL">
+            <Text>Wyłącz podświetlanie pól sąsiadujących z wrogiem.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS" Language="pl_PL">
+            <Text>Automatycznie stosuj obiektyw skauta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_TOOLTIP" Language="pl_PL">
+            <Text>Włącz, aby automatycznie stosować obiektyw skauta podczas wybierania klasy jednostki rekonesansowej.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_EXTRA" Language="pl_PL">
+            <Text>Automatyczne stosowanie soczewki Zwiadowcy (Dodatkowe)</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYSCOUTLENS_EXTRA_TOOLTIP" Language="pl_PL">
+            <Text>Włącz to, aby automatycznie stosować soczewkę Zwiadowcy przy wyborze wszystkich jednostek wojskowych.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYENGINEERLENS" Language="pl_PL">
+            <Text>Automatyczne stosowanie soczewki Tras dla Inżyniera</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYENGINEERLENS_TOOLTIP" Language="pl_PL">
+            <Text>Włącz to, aby automatycznie stosować soczewkę Tras przy wyborze Wojskowego Inżyniera.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYRELIGIONLENSINCITY" Language="pl_PL">
+            <Text>Automatyczne stosowanie soczewki Religii w widoku miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYRELIGIONLENSINCITY_TOOLTIP" Language="pl_PL">
+            <Text>Włącz, aby automatycznie stosować soczewkę Religii przy wyborze zakładki Religia w widoku miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYLOYALTYLENSINCITY" Language="pl_PL">
+            <Text>Automatycznie stosuj soczewkę Lojalności w widoku miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYLOYALTYLENSINCITY_TOOLTIP" Language="pl_PL">
+            <Text>Włącz, aby automatycznie stosować soczewkę Lojalności przy wyborze zakładki Lojalność w widoku miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYPOWERLENSINCITY" Language="pl_PL">
+            <Text>Automatycznie stosuj soczewkę Energii w widoku miasta</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_AUTOAPPLYPOWERLENSINCITY_TOOLTIP" Language="pl_PL">
+            <Text>Włącz, aby automatycznie stosować soczewkę Energii przy wyborze zakładki Energia w widoku miasta.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS" Language="pl_PL">
+            <Text>Wyskakujące okna</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_ALWAYSOPENTECHTREES" Language="pl_PL">
+            <Text>Zawsze otwieraj drzewo technologii</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL" Language="pl_PL">
+            <Text>Popup zakończenia Badania/Kodeksu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_TECHVISUAL_TOOLTIP" Language="pl_PL">
+            <Text>Przełącza wyskakiwanie popup'u który informuje o zakończeniu badania bądź kodeksu prawnego</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO" Language="pl_PL">
+            <Text>Odtwarzanie cytatu w okienku ukończenia Technologii/Idei</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_TECHAUDIO_TOOLTIP" Language="pl_PL">
+            <Text>Przełącza odtwarzanie cytatu w wyskakującym okienku ukończenia Technologii/Idei</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_WONDERBUILTVISUAL" Language="pl_PL">
+            <Text>Popup Cudu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_WONDERBUILTVISUAL_TOOLTIP" Language="pl_PL">
+            <Text>Przełącza wyświetlanie filmiku wyświetlanego przy wybudowaniu cudu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_WONDERBUILTAUDIO" Language="pl_PL">
+            <Text>Audio Popup Cudu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_POPUPS_WONDERBUILTAUDIO_TOOLTIP" Language="pl_PL">
+            <Text>Przełącza odgrywanie audio związanego z wybudowaniem cudu. Jest całkowicie niezależne od części wizualnej i moze działać nawet jeśli ona jest wyłączona.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SETTINGS_REMINDER" Language="pl_PL">
+            <Text>Pamiętaj: Ustawienia CQUI są przypisane do poszczególnych zapisów gry![NEWLINE]Jeśli chcesz zmienić ustawienia na stałe, zmień je w pliku[NEWLINE] cqui_settings_local.sql znajdującym się w katalogu instalacyjnym modów (NIE w katalogu modu).</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_UNITS" Language="pl_PL">
+            <Text>Jednostki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_UNITS_SHOWUNITPATHS" Language="pl_PL">
+            <Text>Pokazuj drogę jednostki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_UNITS_AUTOEXPANDUNITACTIONS" Language="pl_PL">
+            <Text>Rozwijaj listę akcji w panelu jednostki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_SHOWPRD" Language="pl_PL">
+            <Text>Przypomnienie o polityce</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_SHOWPRD_TOOLTIP" Language="pl_PL">
+            <Text>Włącz wyskakujące okienko przypominające o zmianie kart politycznych przed zakończeniem tury</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_AUTOREPEATTECHCIVIC" Language="pl_PL">
+            <Text>Automatyczne powtarzanie powtarzalnych technologii i ustrojów</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_GENERAL_AUTOREPEATTECHCIVIC_TOOLTIP" Language="pl_PL">
+            <Text>Automatycznie powtarzaj badania nad technologiami i ustrojami, które można powtarzać (Przyszła Technologia i Przyszły Ustrój)</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_SCREEN" Language="pl_PL">
+            <Text>Ekran Handlowca</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_SHOW_SORT_ORDER" Language="pl_PL">
+            <Text>Wyświetl kolejność sortowania</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_SHOW_SORT_ORDER_TOOLTIP" Language="pl_PL">
+            <Text>Pokazuje kolejność sortowania różnych zysków na ekranach handlowca</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_COLOR_YIELDS" Language="pl_PL">
+            <Text>Koloruj wartości zysków</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_COLOR_YIELDS_TOOLTIP" Language="pl_PL">
+            <Text>Koloruje wartości zysków w zależności od rodzaju zysku. Np: Zyski z żywności są koloru zielonego</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_ADD_DIVIDER" Language="pl_PL">
+            <Text>Dodaj podział między grupami</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_TRADER_ADD_DIVIDER_TOOLTIP" Language="pl_PL">
+            <Text>Dodaje podział między grupami w panelu Przeglądu Handlu</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_RECOMMENDATIONS_SCREEN" Language="pl_PL">
+            <Text>Rekomendacje</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_RECOMMENDATIONS_SHOWPRODUCTION" Language="pl_PL">
+            <Text>Pokazuj rekomendacje produkcji</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_RECOMMENDATIONS_SHOWTECH" Language="pl_PL">
+            <Text>Pokazuj rekomendacje technologii i ustrojów</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_RECOMMENDATIONS_SHOWIMPROVEMENTS" Language="pl_PL">
+            <Text>Pokazuj rekomendacje ulepszeń</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_RECOMMENDATIONS_SHOWCITYDETAILADVISOR" Language="pl_PL">
+            <Text>Pokaż szczegóły miasta doradcy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_CANCEL_COMMAND" Language="pl_PL">
+            <Text>Anuluj zaplanowaną akcję jednostki</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_REMOVE_HARVEST" Language="pl_PL">
+            <Text>Usuń teren / Zbierz zasoby</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_FISHING" Language="pl_PL">
+            <Text>Zbuduj łodzie rybackie</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_FORT" Language="pl_PL">
+            <Text>Zbuduj fort</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_CAMP" Language="pl_PL">
+            <Text>Zbuduj Obóz</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_FARM" Language="pl_PL">
+            <Text>Zbuduj Farmę</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_MILL" Language="pl_PL">
+            <Text>Zbuduj Tartak</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_OIL" Language="pl_PL">
+            <Text>Zbuduj Platformę wiertniczą / Szyb naftowy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_PASTURE" Language="pl_PL">
+            <Text>Zbuduj Pastwisko</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_PLANTATION" Language="pl_PL">
+            <Text>Zbuduj Plantację</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_QUARRY" Language="pl_PL">
+            <Text>Zbuduj Kamieniołom</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_RAILROAD" Language="pl_PL">
+            <Text>Zbuduj Kolej</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_BUILD_MINE" Language="pl_PL">
+            <Text>Zbuduj Kopalnię</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_NUKE" Language="pl_PL">
+            <Text>Uderzenie B.O.M.: Urządzenie Nuklearne</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_SUZERAIN_DISABLED" Language="pl_PL">
+            <Text>Nie pokazuj Suzerenów</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_SUZERAIN_CIV_ICON" Language="pl_PL">
+            <Text>Pokaż ikonę cywilizacji</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SHOW_SUZERAIN_LEADER_ICON" Language="pl_PL">
+            <Text>Pokaż ikonę przywódcy</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON" Language="pl_PL">
+            <Text>Pokaż etykiety wysłanników suzerena</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LABELS_ON_SUZERAIN_ICON_TOOLTIP" Language="pl_PL">
+            <Text>Pokaż etykiety wysłanników suzerena na banerze Miasta-Państwa[NEWLINE]Gdy jesteś Suzerenem, liczba w prawym górnym rogu ikony pokazuje wysłanych wysłanników,[NEWLINE]Gdy nie jesteś Suzerenem, twoi wysłannicy pokazywani są w lewym górnym rogu, a wysłannicy suzerena w prawym górnym.</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_THERMO_NUKE" Language="pl_PL">
+            <Text>Atak BMD: Bomba termojądrowa</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_REBASE" Language="pl_PL">
+            <Text>Przebazuj</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_PLACE_PIN" Language="pl_PL">
+            <Text>Umieść pinezkę</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_INLINE_CITY_STATE_QUEST" Language="pl_PL">
+            <Text>Pokaż wbudowane misje państw-miast</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_INLINE_CITY_STATE_QUEST_FONT_SIZE" Language="pl_PL">
+            <Text>Pokaż rozmiar czcionki wbudowanych misji państw-miast:</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE" Language="pl_PL">
+            <Text>Styl flagi jednostki na ekranie Religii</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RELIGIONLENSUNITFLAGSTYLE_TOOLTIP" Language="pl_PL">
+            <Text>Wygląd ikon flag jednostek nie-religijnych[NEWLINE]gdy włączony jest ekran Religii[NEWLINE]Nieprzeźroczysty: Flagi jednostek pozostają widoczne, bez zmian[NEWLINE]Półprzezroczysty: Flagi jednostek stają się przeźroczyste[NEWLINE]Ukryty: Flagi jednostek są ukryte</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SPREAD_RELIGION" Language="pl_PL">
+            <Text>Rozprzestrzenianie religii</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_REMOVE_HERESY" Language="pl_PL">
+            <Text>Usuwanie herezji</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_REST_HEAL" Language="pl_PL">
+            <Text>Odpoczynek i leczenie</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SETTINGS" Language="pl_PL">
+            <Text>USTAWIENIA CQUI</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_SETTINGS_MOVED" Language="pl_PL">
+            <Text>Ustawienia CQUI można teraz znaleźć, wybierając "Opcje" z Menu Gry, a następnie przycisk Ustawienia CQUI</Text>
+        </Row>
+        <!-- More Lenses Color Slider Controls -->
+        <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS" Language="pl_PL">
+            <Text>Ustawienia kolorów RGB dla niestandardowych soczewek</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_RED" Language="pl_PL">
+            <Text>Czerwony</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_GREEN" Language="pl_PL">
+            <Text>Zielony</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_BLUE" Language="pl_PL">
+            <Text>Niebieski</Text>
+        </Row>
+        <Row Tag="LOC_CQUI_LENSES_RGB_COLOR_SETTINGS_EDITBOX_TOOLTIP" Language="pl_PL">
+            <Text>Wprowadź wartość między 0 a 255</Text>
+        </Row>
+    </LocalizedText>
 </GameData>

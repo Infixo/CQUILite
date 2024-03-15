@@ -1,76 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-  <LocalizedText>
-    <!-- POLISH -->
-    <Replace Tag="LOC_CQUI_NAME" Language="pl_PL">
-      <Text>CQUI</Text>
-    </Replace>
-
-	<!-- IDS -->
-	<Replace Tag="LOC_IDS_DEAL_TERMS" Language="pl_PL">
-      <Text>Warunki umowy</Text>
-    </Replace>
-	
-    <!-- MESSAGES -->
-    <Replace Tag="LOC_CQUI_CIVIC_MESSAGE_S" Language="pl_PL">
-      <Text>Obecny kodeks prawny, </Text>
-    </Replace>
-    <Replace Tag="LOC_CQUI_TECH_MESSAGE_S" Language="pl_PL">
-      <Text>Obecne badanie, </Text>
-    </Replace>
-    <Replace Tag="LOC_CQUI_HALF_MESSAGE_E" Language="pl_PL">
-      <Text>, jest jedną turę od osiągnięcia maksymalnego potencjału Inspiracji.</Text>
-    </Replace>
-    <Replace Tag="LOC_CQUI_FINISH_MESSAGE_E" Language="pl_PL">
-      <Text>, zakończono.</Text>
-    </Replace>
-
-    <!-- CITY PANEL AMENITY -->
-    <Replace Tag="LOC_CQUI_CITY_ENTERTAINMENT" Language="pl_PL">
-      <Text>Rozrywka</Text>
-    </Replace>
-
-    <!-- POPUPS -->
-    <Row Tag="LOC_CQUI_GREAT_PERSON_PROGRESS" Language="pl_PL">
-      <Text>Postęp:</Text>
-    </Row>
-
-	<!-- #11 Spy Info -->
-    <Replace Tag="LOC_CUI_SI_SPY_AVAILABLE" Language="pl_PL">
-        <Text>Użycie: {1_num} [ICON_Unit] {1_num : plural 1?Szpieg; other?Szpiegów;}</Text>
-    </Replace>
-    <Replace Tag="LOC_CUI_SI_SPY_CAPACITY" Language="pl_PL">
-        <Text>Limit: {1_num} [ICON_Unit] {1_num : plural 1?Szpieg; other?Szpiegów;}</Text>
-    </Replace>
-	
-	<!-- Diplomacy Deal View -->
-	<Replace Tag="LOC_IDS_DEAL_TERMS" Language="pl_PL">
-		<Text>Warunki transakcji</Text>
-	</Replace>
-	<Replace Tag="LOC_IDS_DEAL_TRADE" Language="pl_PL">
-		<Text>[COLOR_Red]Handluj[ENDCOLOR] z</Text>
-	</Replace>
-	<Replace Tag="LOC_IDS_DEAL_SUZERAIN" Language="pl_PL">
-		<Text>[COLOR_Civ6Blue]Suzerain[ENDCOLOR] z</Text>
-	</Replace>
-	<Replace Tag="LOC_IDS_DEAL_UNTRADEABLE" Language="pl_PL">
-		<Text>Niezbywalne</Text>
-	</Replace>
-	<Replace Tag="LOC_IDS_DEAL_DUPLICATE" Language="pl_PL">
-		<Text>Zduplikowane</Text>
-	</Replace>
-    <Replace Tag="LOC_CUI_DP_GOLD_EDIT_TOOLTIP" Language="pl_PL">
-        <Text>LPM - Dodaj, PPM - Odejmij</Text>
-    </Replace>
-    <Replace Tag="LOC_CUI_DP_THEY_HAVE_ITEM_TOOLTIP" Language="pl_PL">
-        <Text>Posiadają już</Text>
-    </Replace>
-    <Replace Tag="LOC_CUI_DP_WE_HAVE_ITEM_TOOLTIP" Language="pl_PL">
-        <Text>Już posiadamy</Text>
-    </Replace>
-    <Replace Tag="LOC_CUI_DP_WE_HAVE_ONLY_ONE_TOOLTIP" Language="pl_PL">
-        <Text>Mamy tylko jedną sztukę</Text>
-    </Replace>
-	
-  </LocalizedText>
+	<LocalizedText>
+		<!-- POLISH -->
+		<Replace Tag="LOC_CQUI_NAME" Language="pl_PL">
+			<Text>CQUI</Text>
+		</Replace>
+		<!-- MESSAGES -->
+		<Replace Tag="LOC_CQUI_CIVIC_MESSAGE_S" Language="pl_PL">
+			<Text>Obecny kodeks prawny, </Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_TECH_MESSAGE_S" Language="pl_PL">
+			<Text>Obecne badanie, </Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_HALF_MESSAGE_E" Language="pl_PL">
+			<Text>, jest jedną turę od osiągnięcia maksymalnego potencjału Inspiracji.</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_FINISH_MESSAGE_E" Language="pl_PL">
+			<Text>, zakończono.</Text>
+		</Replace>
+		<!-- CITY PANEL -->
+		<Replace Tag="LOC_CQUI_CITY_ENTERTAINMENT" Language="pl_PL">
+			<Text>Rozrywka</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_FROM_POPULATION" Language="pl_PL">
+			<Text>z populacji</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_RELIGIOUS_MINORITIES" Language="pl_PL">
+			<Text>Mniejszości religijne</Text>
+		</Replace>
+		<Replace Tag="LOC_HUD_CITY_PILLAGED" Language="pl_PL">
+			<Text>[COLOR:StatBadCS](SplądReplaceane)[ENDCOLOR]</Text>
+		</Replace>
+		<!-- CITY VIEW -->
+		<Replace Tag="LOC_HUD_CITY_NEXT_PLOT" Language="pl_PL">
+			<Text>Miasto urośnie o tę kratkę przy kolejnym kultuReplaceym wzroście granic</Text>
+		</Replace>
+		<!-- POPUPS -->
+		<Replace Tag="LOC_CQUI_GREAT_PERSON_PROGRESS" Language="pl_PL">
+			<Text>Postęp:</Text>
+		</Replace>
+		<!-- ActionPanel -->
+		<Replace Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK" Language="pl_PL">
+			<Text>Atak zasięgowy obozu</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_ACTION_PANEL_ENCAMPMENT_RANGED_ATTACK_TOOLTIP" Language="pl_PL">
+			<Text>Twój obóz jest w stanie wykonać atak zasięgowy</Text>
+		</Replace>
+		<!-- Policyreminderpopup -->
+		<Replace Tag="LOC_POLICY_REMINDER_TITLE" Language="pl_PL">
+			<Text>PRZYPOMNIENIE DYKTRYNOWE</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REMINDER_TEXT" Language="pl_PL">
+			<Text>Nowe karty doktryn zostały odblokowane.</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REMINDER_ACTION_BUTTON" Language="pl_PL">
+			<Text>ZMIANA DOKTRYNY</Text>
+		</Replace>
+		<Replace Tag="LOC_POLICY_REMINDER_ACTION_BUTTON_TOOLTIP" Language="pl_PL">
+			<Text>Możesz zmienić swoje doktryny w tej turze.</Text>
+		</Replace>
+		<!-- Diplomacy View -->
+		<Replace Tag="LOC_CQUI_DIPLOMACY_VIEW_TOTAL_SCORE_PER_TURN_TEXT" Language="pl_PL">
+			<Text>W sumie</Text>
+		</Replace>
+		<!-- Smartbanner unlocked citizen -->
+		<Replace Tag="LOC_CQUI_SMARTBANNER_UNLOCKEDCITIZEN_TOOLTIP" Language="pl_PL">
+			<Text>Masz niezablokowanych mieszkańców automatycznie zarządzanych przez AI.</Text>
+		</Replace>
+		<!-- #62 Infixo original owner tooltip -->
+		<Replace Tag="LOC_CQUI_CITY_BANNER_ORIGINAL_CAPITAL_TT" Language="pl_PL">
+			<Text>[NEWLINE][ICON_Bullet]Oryginalna stolica {1_OriginalOwner}</Text>
+		</Replace>
+		<Replace Tag="LOC_CQUI_CITY_BANNER_ORIGINAL_CITY_TT" Language="pl_PL">
+			<Text>[NEWLINE][ICON_Bullet]Oryginalne miasto {1_OriginalOwner}</Text>
+		</Replace>
+		<!-- #75 Infixo tourism info in the plot tooltip -->
+		<Replace Tag="LOC_CQUI_TOOLTIP_PLOT_IMPROVE_RESOURCE" Language="pl_PL">
+			<Text>[COLOR:Civ6Red]Ulepsz lub napraw kratkę by dostawać zasób[ENDCOLOR]</Text>
+		</Replace>
+		<!-- #177 Infixo goody hut rewards -->
+		<Replace Tag="LOC_GOODYHUT_CIVIC_BOOST_DESCRIPTION" Language="pl_PL">
+			<Text>[ICON_CivicBoosted] Moment inspiracji dla {1_Num} {1_Num: plural 1?losowej idei; other?losowych idei;}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_TECH_BOOST_DESCRIPTION" Language="pl_PL">
+			<Text>[ICON_TechBoosted] Eureka dla {1_Num} {1_Num: plural 1?losowej technologii; other?losowych technologii;}</Text>
+		</Replace>
+		<Replace Tag="LOC_GOODYHUT_STRATEGIC_RESOURCES_DESCRIPTION" Language="pl_PL">
+			<Text>+{1_Num} najnowocześniejszego technologicznie zasobu strategicznego</Text>
+		</Replace>
+		<!-- #11 Spy Info -->
+		<Replace Tag="LOC_CUI_SI_SPY_AVAILABLE" Language="pl_PL">
+			<Text>Użycie: {1_num} [ICON_Unit] {1_num : plural 1?Szpieg; other?Szpiegów;}</Text>
+		</Replace>
+		<Replace Tag="LOC_CUI_SI_SPY_CAPACITY" Language="pl_PL">
+			<Text>Limit: {1_num} [ICON_Unit] {1_num : plural 1?Szpieg; other?Szpiegów;}</Text>
+		</Replace>
+		<!-- Diplomacy Deal View -->
+		<Replace Tag="LOC_IDS_DEAL_TERMS" Language="pl_PL">
+			<Text>Warunki umowy</Text>
+		</Replace>
+		<Replace Tag="LOC_IDS_DEAL_TRADE" Language="pl_PL">
+			<Text>[COLOR_Red]Handluj[ENDCOLOR] z</Text>
+		</Replace>
+		<Replace Tag="LOC_IDS_DEAL_SUZERAIN" Language="pl_PL">
+			<Text>[COLOR_Civ6Blue]Suzerain[ENDCOLOR] z</Text>
+		</Replace>
+		<Replace Tag="LOC_IDS_DEAL_UNTRADEABLE" Language="pl_PL">
+			<Text>Niezbywalne</Text>
+		</Replace>
+		<Replace Tag="LOC_IDS_DEAL_DUPLICATE" Language="pl_PL">
+			<Text>Zduplikowane</Text>
+		</Replace>
+		<Replace Tag="LOC_DEAL_CURRENT_DEALS" Language="pl_PL">
+			<Text>OBECNE[NEWLINE]UMOWY</Text>
+		</Replace>
+		<Replace Tag="LOC_DEAL_CURRENT_DEALS_TT" Language="pl_PL">
+			<Text>Streszczenie obecnie aktywnych umów</Text>
+		</Replace>
+		<Replace Tag="LOC_DEAL_OUTGOING_ITEMS_TT" Language="pl_PL">
+			<Text>Exportowane przedmioty (tzn. my sprzedajemy)</Text>
+		</Replace>
+		<Replace Tag="LOC_DEAL_INCOMING_ITEMS_TT" Language="pl_PL">
+			<Text>Importowane przedmioty (tzn. my kupujemy)</Text>
+		</Replace>
+		<Replace Tag="LOC_CUI_DP_GOLD_EDIT_TOOLTIP" Language="pl_PL">
+			<Text>LPM - Dodaj, PPM - Odejmij</Text>
+		</Replace>
+		<Replace Tag="LOC_CUI_DP_THEY_HAVE_ITEM_TOOLTIP" Language="pl_PL">
+			<Text>Posiadają już</Text>
+		</Replace>
+		<Replace Tag="LOC_CUI_DP_WE_HAVE_ITEM_TOOLTIP" Language="pl_PL">
+			<Text>Już posiadamy</Text>
+		</Replace>
+		<Replace Tag="LOC_CUI_DP_WE_HAVE_ONLY_ONE_TOOLTIP" Language="pl_PL">
+			<Text>Mamy tylko jedną sztukę</Text>
+		</Replace>
+		<!-- Extended variables for world ranking from 20 to 30 players -->
+		<Replace Tag="LOC_WORLD_RANKINGS_21_PLACE" Language="pl_PL">
+			<Text>dwudziesty-pierwszy</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_22_PLACE" Language="pl_PL">
+			<Text>dwudziesty-drugi</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_23_PLACE" Language="pl_PL">
+			<Text>dwudziesty-trzeci</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_24_PLACE" Language="pl_PL">
+			<Text>dwudziesty-czwarty</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_25_PLACE" Language="pl_PL">
+			<Text>dwudziesty-piąty</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_26_PLACE" Language="pl_PL">
+			<Text>dwudziesty-szósty</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_27_PLACE" Language="pl_PL">
+			<Text>dwudziesty-siódmy</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_28_PLACE" Language="pl_PL">
+			<Text>dwudziesty-ósmy</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_29_PLACE" Language="pl_PL">
+			<Text>dwudziesty-dziewiąty</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_RANKINGS_30_PLACE" Language="pl_PL">
+			<Text>trzydziesty</Text>
+		</Replace>
+	</LocalizedText>
 </GameData>
